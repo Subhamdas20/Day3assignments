@@ -7,9 +7,7 @@ import java.lang.*;
 public class Compair {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
-
-           System.out.println("Enter the value of co-ordinate of  line 1 x1");
+            System.out.println("Enter the value of co-ordinate of  line 1 x1");
             int x1 = sc.nextInt();
             System.out.println("Enter the value of coordinate of line 1 x2");
             int x2 = sc.nextInt();
@@ -27,12 +25,12 @@ public class Compair {
             int Y2 = sc.nextInt();
 
 
-            float a = (float) Math.sqrt((Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
-            float b =(float) Math.sqrt((Math.pow((X2 - X1), 2) + Math.pow((Y2 - Y1), 2)));
-            System.out.println("Length of line is 1" + " " + a);
-            System.out.println("Length of line is 2" + " " + b);
-            boolean s = Objects.equals(a, b);
-            if(s==true)
+            int l1 = (int) Math.sqrt((Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
+            int l2 =(int) Math.sqrt((Math.pow((X2 - X1), 2) + Math.pow((Y2 - Y1), 2)));
+            System.out.println("Length of line is 1" + " " + l1);
+            System.out.println("Length of line is 2" + " " + l2);
+            boolean comp = Objects.equals(l1, l2);
+            if(comp==true)
                 System.out.println("Length of line 1 and 2 is equal");
             else
             System.out.println("Length of line 1 and 2 is not equal");
