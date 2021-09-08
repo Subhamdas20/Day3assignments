@@ -13,7 +13,7 @@ public class CalculateLength {
         int y1=sc.nextInt();
         System.out.println("Enter the value of co-ordinate y1");
         int y2=sc.nextInt();
-        double a= Math.sqrt((Math.pow((x2-x1), 2)+Math.pow((y2-y1), 2)));
+        double a= Math.sqrt((Math.pow((x2-x1), 2)+Math.pow((y2-y1), 2))); //calculating length of a line
 
         System.out.println("Length of line is -"+" " +a);
 
