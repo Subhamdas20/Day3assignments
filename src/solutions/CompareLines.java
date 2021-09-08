@@ -26,17 +26,17 @@ public class CompareLines {
         int Y2 = sc.nextInt();
 
 
-        Float l1 = (float) Math.sqrt((Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
-        Float l2 = (float) Math.sqrt((Math.pow((X2 - X1), 2) + Math.pow((Y2 - Y1), 2)));
-        System.out.println("Length of line is 1" + " " + l1);
-        System.out.println("Length of line is 2" + " " + l2);
-        int s = l1.compareTo(l2);
+        Float lenth_line1 = (float) Math.sqrt((Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
+        Float lenth_line2 = (float) Math.sqrt((Math.pow((X2 - X1), 2) + Math.pow((Y2 - Y1), 2)));
+        System.out.println("Length of line is 1" + " " + lenth_line1);
+        System.out.println("Length of line is 2" + " " + lenth_line2);
+        int s = lenth_line1.compareTo(lenth_line2);
         if(s==0)
-            System.out.println("Line 1 is equal to line 2");
-        else if (l1>l2)
-            System.out.println("Line 1 is greater");
+            System.out.println("Length of Line 1 is equal to line 2");
+        else if (lenth_line1>lenth_line2)
+            System.out.println("Length of Line 1 is greater");
         else
-            System.out.println("Line 1 is greater");
+            System.out.println("Length of Line 1 is greater");
 
 
     }
