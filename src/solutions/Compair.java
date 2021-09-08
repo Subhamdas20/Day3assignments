@@ -25,11 +25,11 @@ public class Compair {
             int Y2 = sc.nextInt();
 
 
-            int l1 = (int) Math.sqrt((Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
-            int l2 =(int) Math.sqrt((Math.pow((X2 - X1), 2) + Math.pow((Y2 - Y1), 2)));
-            System.out.println("Length of line is 1" + " " + l1);
-            System.out.println("Length of line is 2" + " " + l2);
-            boolean comp = Objects.equals(l1, l2);
+            int length_line1 = (int) Math.sqrt((Math.pow((x2 - x1), 2) + Math.pow((y2 - y1), 2)));
+            int length_line2 =(int) Math.sqrt((Math.pow((X2 - X1), 2) + Math.pow((Y2 - Y1), 2)));
+            System.out.println("Length of line is 1" + " " + length_line1);
+            System.out.println("Length of line is 2" + " " + length_line2);
+            boolean comp = Objects.equals(length_line1, length_line2);
             if(comp==true)
                 System.out.println("Length of line 1 and 2 is equal");
             else
