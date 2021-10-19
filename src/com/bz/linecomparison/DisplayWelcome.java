@@ -1,4 +1,4 @@
-package solutions;
+package com.bz.linecomparison;
 
 public class DisplayWelcome {
     public static void main(String[] args) {
