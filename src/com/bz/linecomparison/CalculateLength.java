@@ -1,4 +1,4 @@
-package solutions;
+package com.bz.linecomparison;
 import java.util.Scanner;
 import java.lang.Math;
 
@@ -13,9 +13,9 @@ public class CalculateLength {
         int y1=sc.nextInt();
         System.out.println("Enter the value of co-ordinate y1");
         int y2=sc.nextInt();
-        double a= Math.sqrt((Math.pow((x2-x1), 2)+Math.pow((y2-y1), 2))); //calculating length of a line
+        double length= Math.sqrt((Math.pow((x2-x1), 2)+Math.pow((y2-y1), 2))); //calculating length of a line
 
-        System.out.println("Length of line is -"+" " +a);
+        System.out.println("Length of line is -"+" " +length);
 
 
     }
