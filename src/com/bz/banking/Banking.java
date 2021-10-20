@@ -1,5 +1,4 @@
 package com.bz.banking;
-
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -48,5 +47,6 @@ public class Banking {
             addCustomer();
             display();
         }
+
     }
 
