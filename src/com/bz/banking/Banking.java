@@ -47,6 +47,5 @@ public class Banking {
             addCustomer();
             display();
         }
-
     }
 
