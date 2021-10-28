@@ -3,10 +3,16 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Banking {
+    /*
+    * Added properties for bank application
+    * Used Constructor Banking to set values
+    * Used addCustomer to add customer to arrayList
+    * used display function to display the details of customers added
+    */
         final String bankName = "State Bank of India" ;
         long accountNumber ;
         String customerName ;
-        int customerAge;
+        int customerAge ;
         static ArrayList<Banking> accounts = new ArrayList<>();
         static Scanner sc = new Scanner(System.in);
         public Banking(long accountNumber, String customerName, int customerAge) {
@@ -35,6 +41,7 @@ public class Banking {
                 accounts.add(account);
             }
         }
+
         @Override
         public String toString() {
             return
