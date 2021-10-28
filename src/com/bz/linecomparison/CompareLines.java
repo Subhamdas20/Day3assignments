@@ -4,7 +4,10 @@ import java.lang.*;
 import java.util.*;
 
 public class CompareLines {
-    public static void main(String[] args) {
+    /*
+    * Added compareLines method to compare lengths
+    */
+    public static void compareLines(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of co-ordinate of  line 1 x1");
         int x1 = sc.nextInt();
@@ -33,5 +36,8 @@ public class CompareLines {
             System.out.println("Length of Line 1 is greater");
         else
             System.out.println("Length of Line 2 is greater");
+    }
+    public static void main(String[] args) {
+        compareLines();
     }
 }
