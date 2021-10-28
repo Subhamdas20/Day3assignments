@@ -8,6 +8,7 @@ public class Compare {
     /*
      * Added method to compares lines
      */
+
     public static void compareLength() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of co-ordinate of  line 1 x1");
