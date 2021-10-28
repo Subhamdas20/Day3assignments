@@ -1,13 +1,14 @@
 package com.bz.linecomparison;
+
 import java.lang.Float;
 import java.lang.*;
 import java.util.*;
 
 public class CompareLines {
     /*
-    * Added compareLines method to compare lengths
-    */
-    public static void compareLines(){
+     * Added compareLines method to compare lengths
+     */
+    public static void compareLines() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of co-ordinate of  line 1 x1");
         int x1 = sc.nextInt();
@@ -30,13 +31,14 @@ public class CompareLines {
         System.out.println("Length of line is 1" + " " + length_Line1);
         System.out.println("Length of line is 2" + " " + length_Line2);
         int compare = length_Line1.compareTo(length_Line2);
-        if(compare==0)
+        if (compare == 0)
             System.out.println("Length of Line 1 is equal to line 2");
-        else if (length_Line1>length_Line2)
+        else if (length_Line1 > length_Line2)
             System.out.println("Length of Line 1 is greater");
         else
             System.out.println("Length of Line 2 is greater");
     }
+
     public static void main(String[] args) {
         compareLines();
     }
